@@ -11,8 +11,8 @@ public class array {
 
 
     // variable length argument list
-    public static int sum(int... numbers) //here the (int...) initialised a variable array sort of thing
-                                          //that is stored inside the array named 'nubmers'
+    public static int sum(int... numbers) //here the (int...) initialised a variable length array sort of thing
+                                          //that is stored inside the array named 'numbers'
     /*
        1. only one variable length argument list can be passed in one method
        2. the variable argument list must be the last parameter any other parameter must be before it
@@ -39,7 +39,7 @@ public class array {
         int a[]=new int[5];//declaration and instantiation
         a[0]=10;//initialization
         a[1]=20;
-        System.out.println(a[0]);
+        System.out.println(a[0]);// prints the element of the array at the index 0
         char b [] ={'a','c','s',};
        // printarray(a);
 
